@@ -10,8 +10,11 @@
     "@types/node": "^16.18.91",
     "@types/react": "^18.2.72",
     "@types/react-dom": "^18.2.22",
+    "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
@@ -41,8 +44,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
+    "@types/leaflet": "^1.9.9",
     "customize-cra": "^1.0.0",
     "react-app-rewire-alias": "^1.1.7",
-    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
+    "react-app-rewired": "^2.2.1"
   }
 }
